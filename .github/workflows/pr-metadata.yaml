@@ -1,19 +1,2 @@
-name: PR metadata annotation
-
-on: 
-  pull_request:
-    types: [opened, reopened, synchronize]
-
-jobs:
-
-  annotate-pr:
-    runs-on: ubuntu-latest
-    name: Annotates pull request with metadata
-    steps:
-      - name: Annotate PR
-        uses: link-/PR-metadata-action@main
-        with:
-          owner: ${{ github.repository_owner }}
-          repo: ${{ github.event.repository.name }}
-          pr_number: ${{ github.event.number }}
-          token: ${{ secrets.GH_TOKEN }}
+- name: TruffleHog OSS
+  uses: trufflesecurity/trufflehog@v3.4.1
