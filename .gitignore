@@ -1,4 +1,2 @@
 node_modules
-dbpassword.txt
-.gitsecret/keys/private-keys-v1.d/random_seed
 .DS_Store
