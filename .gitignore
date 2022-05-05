@@ -202,5 +202,6 @@ out
 #####=== Custom ===#####
 # Logic files:
 .gitsecret/keys/**.d/random_seed
+dbpassword.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,nodedbpassword.txt
